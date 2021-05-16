@@ -14,41 +14,35 @@ export default {
       name: "indexLetter",
       description: 'the letter index [(a)] for this project, eg: "a"',
       type: "string",
-      validation: Rule => Rule.required()
     },
     {
       title: 'Hero Image',
       name: 'heroImage',
       type: 'image',
-      validation: Rule => Rule.required()
     },
     {
       title: 'Client',
       name: 'client',
       type: 'string',
       description: 'eg: "Paul Smith"',
-      validation: Rule => Rule.required()
     },
     {
       title: 'Years',
       name: 'years',
       type: 'string',
       description: 'eg: "2017—19"',
-      validation: Rule => Rule.required()
     },
     {
       title: 'Disciplines',
       name: 'disciplines',
       type: 'string',
       description: 'eg: "Art Direction, Interactive"',
-      validation: Rule => Rule.required()
     },
     {
       title: 'Abstract Intro',
       name: 'abstractIntro',
       type: 'text',
       description: 'The text for the abstract introduction',
-      validation: Rule => Rule.required()
     },
     {
       title: 'Abstract Image',
