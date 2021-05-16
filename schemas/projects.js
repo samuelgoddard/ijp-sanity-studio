@@ -78,5 +78,15 @@ export default {
           .slice(0, 200)
       }
     }
-  ]
+  ],
+  preview: {
+    select: {
+      title: 'title'
+    },
+    prepare ({ title }) {
+      return {
+        title
+      }
+    }
+  }
 }
