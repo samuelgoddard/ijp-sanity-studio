@@ -1,6 +1,6 @@
 const globalSlugs = {
   home: '/',
-  projects: '/projects'
+  project: '/projects'
 }
 
 export const getGlobalSlug = (slug) => globalSlugs[slug]

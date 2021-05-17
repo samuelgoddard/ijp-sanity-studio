@@ -41,14 +41,22 @@ export default {
     {
       title: 'Abstract Intro',
       name: 'abstractIntro',
-      type: 'text',
-      description: 'The text for the abstract introduction',
+      type: 'array', 
+      of: [{type: 'block'}],
+      description: 'The text block for the abstract introduction',
     },
     {
       title: 'Abstract Image',
       name: 'abstractmIage',
       type: 'image',
       description: 'The image for the abstract introduction',
+    },
+    {
+      title: 'Detail Intro',
+      name: 'detailIntro',
+      type: 'array', 
+      of: [{type: 'block'}],
+      description: 'The text block for the detail introduction',
     },
     {
       title: 'Content Blocks',
