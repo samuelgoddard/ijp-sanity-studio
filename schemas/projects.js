@@ -10,6 +10,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Short Title",
+      name: "shortTitle",
+      description: '(Optional) Shorter version of the title (used on the home page teaser)',
+      type: "string",
+    },
+    {
       title: "Index Letter",
       name: "indexLetter",
       description: 'the letter index [(a)] for this project, eg: "a"',
