@@ -27,7 +27,8 @@
     "react": "^17.0",
     "react-dom": "^17.0",
     "sanity-mobile-preview": "^1.0.8",
-    "sanity-plugin-media": "^1.4.2"
+    "sanity-plugin-media": "^1.4.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@sanity/cli": "^2.10.0"

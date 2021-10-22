@@ -27,6 +27,12 @@ export default {
       type: 'image',
     },
     {
+      title: 'Thumbnail Image',
+      name: 'thumbnailImage',
+      type: 'image',
+      description: 'The image used as the thumbnail / teaser image for this projects (eg: home page and all projects)',
+    },
+    {
       title: 'Client',
       name: 'client',
       type: 'string',
