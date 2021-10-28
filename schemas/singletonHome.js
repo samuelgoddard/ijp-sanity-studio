@@ -39,7 +39,8 @@ export default {
       {
         title: 'Biography',
         name: 'biography',
-        type: 'text',
+        type: 'array', 
+        of: [{type: 'block'}],
         validation: Rule => Rule.required()
       },
       {
