@@ -15,7 +15,9 @@
     "@sanity/desk-tool",
     "@sanity/dashboard",
     "media",
-    "@sanity/production-preview"
+    "@sanity/production-preview",
+    "vercel-deploy",
+    "order-documents"
   ],
   "env": {
     "development": {
