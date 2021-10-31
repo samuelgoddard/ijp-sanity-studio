@@ -91,6 +91,12 @@ export default {
           .replace(/\s+/g, '-')
           .slice(0, 200)
       }
+    },
+    {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
     }
   ],
   preview: {
