@@ -22,20 +22,20 @@ export default {
         type: 'image',
         validation: Rule => Rule.required()
       },
-      {
-        title: 'Featured Projects',
-        name: 'featuredProjects',
-        description: 'The list of "Featured" projects to show',
-        type: 'array',
-        of: [
-          {
-            type: 'reference',
-            to: [
-              {type: 'project'}
-            ]
-          }
-        ],
-      },
+      // {
+      //   title: 'Featured Projects',
+      //   name: 'featuredProjects',
+      //   description: 'The list of "Featured" projects to show',
+      //   type: 'array',
+      //   of: [
+      //     {
+      //       type: 'reference',
+      //       to: [
+      //         {type: 'project'}
+      //       ]
+      //     }
+      //   ],
+      // },
       {
         title: 'Biography',
         name: 'biography',
