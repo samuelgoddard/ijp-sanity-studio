@@ -63,6 +63,12 @@ export default {
       type: 'string',
       description: 'eg: "Art Direction, Interactive"',
     },
+    {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
     // {
     //   title: 'Abstract Intro',
     //   name: 'abstractIntro',
