@@ -5,13 +5,19 @@ import awards from './awards'
 import projects from './projects'
 import singletonHome from './singletonHome'
 import imageBlock from './blocks'
+import defaultImage from './defaultImage'
 import socials from './socials'
+import singletonInfo from './singletonInfo'
+import singletonContact from './singletonContact'
 
 export default createSchema({
   name: 'default',
   types: schemaTypes.concat([
     projects,
     singletonHome,
+    singletonInfo,
+    singletonContact,
+    defaultImage,
     awards,
     imageBlock,
     socials

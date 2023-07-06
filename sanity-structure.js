@@ -27,7 +27,11 @@ export default () =>
   S.list()
     .title("Content")
     .items([
-      S.listItem().title('Home Page').child(S.editor().id('home').schemaType('home').documentId('singleton-home').views(getPreview('home'))),
+      S.listItem().title('Home').child(S.editor().id('home').schemaType('home').documentId('singleton-home').views(getPreview('home'))),
+      S.divider(),
+      S.listItem().title('Info').child(S.editor().id('info').schemaType('info').documentId('singleton-info').views(getPreview('home'))),
+      S.divider(),
+      S.listItem().title('Contact').child(S.editor().id('contact').schemaType('contact').documentId('singleton-contact').views(getPreview('home'))),
       S.divider(),
       S.listItem().title('Projects').child(S.documentTypeList('project').title('Projects'))
     ]);
