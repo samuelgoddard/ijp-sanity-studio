@@ -21,10 +21,7 @@ export default {
         title: 'Capabilities',
         name: 'capabilities',
         type: 'array',
-        of: [{
-          type: 'string',
-          validation: Rule => Rule.required()
-        }],
+        of: [{type: 'capability', title: 'Capability'}],
       },
       {
         title: 'Awards',

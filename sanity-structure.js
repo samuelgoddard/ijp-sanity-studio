@@ -27,7 +27,7 @@ export default () =>
   S.list()
     .title("Content")
     .items([
-      S.listItem().title('Home').child(S.editor().id('home').schemaType('home').documentId('singleton-home').views(getPreview('home'))),
+      S.listItem().title('Reel').child(S.editor().id('home').schemaType('home').documentId('singleton-home').views(getPreview('home'))),
       S.divider(),
       S.listItem().title('Info').child(S.editor().id('info').schemaType('info').documentId('singleton-info').views(getPreview('home'))),
       S.divider(),
